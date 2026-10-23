@@ -49,7 +49,7 @@ architecture Behavioral of program_rom is
 	
 begin
 
-    -- read the word at ADDR (no clock needed)
+    -- read the word at ADDR (no clock needed) .
     INSTR <= ROM(to_integer(unsigned(ADDR)));
 
 end Behavioral;
