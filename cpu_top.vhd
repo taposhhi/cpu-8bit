@@ -11,7 +11,7 @@ entity cpu_top is
     Port (
         -- clock
         CLK    : in  STD_LOGIC;
-        -- synchronous, active-high reset
+        -- synchronous, active-high reset.
         RESET  : in  STD_LOGIC;
         -- accumulator value (CPU output)
         Q      : out STD_LOGIC_VECTOR(7 downto 0);
