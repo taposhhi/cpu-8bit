@@ -12,7 +12,7 @@ entity z_register is
         CLK   : in  STD_LOGIC;
         -- 1 = set the flag to 1
         RESET : in  STD_LOGIC;
-        -- 1 = update the flag, 0 = keep the old value
+        -- 1 = update the flag, 0 = keep the old value.
         EN    : in  STD_LOGIC;
         -- new flag value (from the ALU zero output)
         D     : in  STD_LOGIC;

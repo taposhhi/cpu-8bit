@@ -12,7 +12,7 @@ entity acc_register is
         CLK   : in  STD_LOGIC;
         -- 1 = clear the accumulator to 0x00
         RESET : in  STD_LOGIC;
-        -- 1 = load the new value D, 0 = keep the old value
+        -- 1 = load the new value D, 0 = keep the old value.
         EN    : in  STD_LOGIC;
         -- new value (from the ALU)
         D     : in  STD_LOGIC_VECTOR(7 downto 0);
