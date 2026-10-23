@@ -33,7 +33,7 @@ begin
 
     process(CLK)
     begin
-        -- act only on the clock's rising edge
+        -- act only on the clock's rising edge 
         if rising_edge(CLK) then
             -- reset: start from address 0
             if RESET = '1' then
@@ -42,7 +42,7 @@ begin
 				
 				elsif LOAD = '1' then
                 pc_reg <= unsigned(D);
-            -- normal: go to the next instruction
+            -- normal: go to the next instruction case
             else
                 pc_reg <= pc_reg + 1;
             end if;
