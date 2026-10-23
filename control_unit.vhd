@@ -29,7 +29,7 @@ begin
 
     process(OPCODE, Z)
     begin
-        -- default values = NOP (do nothing)
+        -- default values = NOP (do nothing).
         ALU_OP  <= "00";
         ACC_EN  <= '0';
         Z_EN    <= '0';
